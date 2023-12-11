@@ -66,7 +66,7 @@ class HomeFragment : Fragment() {
             settings.domStorageEnabled = true
 
             webView.webViewClient = WebViewClient()
-            webView.loadUrl("https://staging.cardapio.ai/gestor?udid=$advertisingIdGlobal&token=$tokenRecuperado")
+            webView.loadUrl("https://cardapio.ai/gestor?udid=$advertisingIdGlobal&token=$tokenRecuperado")
             webView.settings.javaScriptEnabled = true
 
 
