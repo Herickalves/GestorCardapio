@@ -7,6 +7,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.webkit.WebSettings
 import android.webkit.WebViewClient
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
@@ -57,12 +58,21 @@ class HomeFragment : Fragment() {
             println("Advertising ID: $advertisingId")
 
             val webView = binding.webViewPrincipal
+
+
+
+            val settings = webView.settings
+            settings.cacheMode = WebSettings.LOAD_CACHE_ELSE_NETWORK
+            settings.domStorageEnabled = true
+
             webView.webViewClient = WebViewClient()
-            webView.loadUrl(
-                "https://staging.cardapio.ai/gestor?udid=$advertisingIdGlobal&token=$tokenRecuperado"
-            )
+          //  webView.loadUrl("https://staging.cardapio.ai/gestor?udid=$advertisingIdGlobal&token=$tokenRecuperado")
+
+            //PRODUÇÃO
+            webView.loadUrl("https://cardapio.ai/gestor/")
             webView.settings.javaScriptEnabled = true
-            webView.settings.domStorageEnabled = true
+
+
         }
 
         getFCMToken { token ->
