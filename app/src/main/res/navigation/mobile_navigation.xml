@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.herick.gestorcardapio.ui.home.HomeFragment"
+        android:label="Cardapio.ai"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment android:id="@+id/nav_preferencias"
+        android:name="com.herick.gestorcardapio.ui.preferencias.PreferenciasFragment"
+        android:label="Preferências"
+        tools:layout="@layout/fragment_preferencias" />
+
+
+    <fragment android:id="@+id/nav_suporte"
+        android:name="com.herick.gestorcardapio.ui.suporte.SuporteFragment"
+        android:label="Suporte"
+        tools:layout="@layout/fragment_suporte" />
+
+
+    <fragment android:id="@+id/nav_sobre"
+        android:name="com.herick.gestorcardapio.ui.sobre.SobreFragment"
+        android:label="Sobre o Cardapio.ai"
+        tools:layout="@layout/fragment_sobre" />
+
+    <fragment android:id="@+id/nav_VendaConosco"
+        android:name="com.herick.gestorcardapio.ui.vendaconosco.VendaConoscoFragment"
+        android:label="Venda conosco"
+        tools:layout="@layout/fragment_venda_conosco" />
+
+
+</navigation>

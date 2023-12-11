@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Gestor Cardapio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="sugestão">Compartilhe sua sugestão conosco! Queremos ouvir você para melhorar continuamente. Agradecemos pela colaboração.</string>
+    <string name="sugestao_padrao">Olá Equipe do Cardápio.AI,\n\nGostaria de sugerir a seguinte melhoria para o aplicativo:\n[Inclua aqui detalhes específicos da sua sugestão.]\n\nObrigado!\n[Seu Nome]</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_suporte">Estamos aqui para te ajudar com qualquer dúvida. Descreva o que precisa que nossos colaboradores retornarão o contato</string>
+    <string name="copyriht">Copyright © 2022 – No Mercado Representações LTDA – CNPJ \n 32.845/0001–85</string>
+</resources>

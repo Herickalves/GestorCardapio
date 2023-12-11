@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "468658440672",
+    "project_id": "gestor-cardapioai",
+    "storage_bucket": "gestor-cardapioai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468658440672:android:bd3042b9fc64fe0c444385",
+        "android_client_info": {
+          "package_name": "com.herick.gestorcardapio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDizANkA5OLJl3CVSvHTTQxd1VnVnIqGhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
